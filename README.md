@@ -10,6 +10,7 @@ pip install -r install.md
 python data_summary.py
 ```
 coco_train_2017输出结果：
+![result table](https://github.com/gav1n-cheung/ICME/tree/main/res)
 ```
 ==============image sum:118287==============
 +----------------+---------------------+
