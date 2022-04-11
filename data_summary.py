@@ -13,10 +13,10 @@ import pandas as pd
 from prettytable import PrettyTable
 
 data_dir = {
-    'train_data': './train2017/',
-    'val_data': './val2017/',
-    'train_json': './annotations/instances_train2017.json',
-    'val_json': './annotations/instances_val2017.json'
+    'train_data': './fewshotlogodetection_round1_train_202204/train/images',
+    'val_data': '',
+    'train_json': '',
+    'val_json': './fewshotlogodetection_round1_train_202204/train/annotations/instances_train2017.json'
 }
 
 img_path = glob.glob(data_dir['train_data'] + '/*')
